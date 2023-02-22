@@ -1,0 +1,178 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GenerateRequest/1.0.0": {
+        "dependencies": {
+          "LibCore.Windows": "2023.2.20.1",
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "runtime": {
+          "GenerateRequest.dll": {}
+        }
+      },
+      "LibCore.Windows/2023.2.20.1": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "6.0.0",
+          "System.Security.Cryptography.Xml": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/0Harmony.dll": {
+            "assemblyVersion": "2.2.2.0",
+            "fileVersion": "2.2.2.0"
+          },
+          "lib/net6.0/LibCore.Common.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Net.Security.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Security.Cryptography.Algorithms.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Security.Cryptography.Csp.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Security.Cryptography.Primitives.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Security.Cryptography.X509Certificates.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/LibCore.dll": {
+            "assemblyVersion": "2023.2.20.1",
+            "fileVersion": "2023.2.20.1"
+          },
+          "lib/net6.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/MonoMod.Common.dll": {
+            "assemblyVersion": "22.6.3.1",
+            "fileVersion": "22.6.3.1"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
+      "System.Formats.Asn1/6.0.0": {},
+      "System.Security.AccessControl/6.0.0": {},
+      "System.Security.Cryptography.Pkcs/6.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/6.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0",
+          "System.Security.Cryptography.Pkcs": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GenerateRequest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibCore.Windows/2023.2.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tVTYFf85c8bZL/KwDwXYZvZnyZTYdXc5KYukJy85PpPs06zIy8h7AtQvn0IEstmfNHJGW5kC5RV7YH0YHzXi2w==",
+      "path": "libcore.windows/2023.2.20.1",
+      "hashPath": "libcore.windows.2023.2.20.1.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+    },
+    "System.Formats.Asn1/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
+      "path": "system.formats.asn1/6.0.0",
+      "hashPath": "system.formats.asn1.6.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
+      "path": "system.security.accesscontrol/6.0.0",
+      "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elM3x+xSRhzQysiqo85SbidJJ2YbZlnvmh+53TuSZHsD7dNuuEWser+9EFtY+rYupBwkq2avc6ZCO3/6qACgmg==",
+      "path": "system.security.cryptography.pkcs/6.0.0",
+      "hashPath": "system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-puJ4UCh9JVRwOCyCIcq71JY6Axr8Sp8E2GjTIU1Fj8hm4+oX6NEoyGFGa/+pBG8SrVxbQPSj7hvtaREyTHHsmw==",
+      "path": "system.security.cryptography.xml/6.0.0",
+      "hashPath": "system.security.cryptography.xml.6.0.0.nupkg.sha512"
+    }
+  }
+}
